@@ -66,11 +66,9 @@ public class LC_101 {
         // Create a sample tree:
         //       4
         //      / \
-        //     1   6
+        //     1   1
         //    / \ / \
-        //   0  2 5  7
-        //      \    \
-        //       3    8
+        //   0  2 2  0
         TreeNode root = new TreeNode(4);
         root.left = new TreeNode(1);
         root.right = new TreeNode(1);
